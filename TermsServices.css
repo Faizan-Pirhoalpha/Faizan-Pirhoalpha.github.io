@@ -1,0 +1,28 @@
+body{
+    background: #000;
+    font-family: "Open Sans", sans-serif;
+}
+
+.abLogo {
+    max-width: 15%;
+  }
+
+.back-to-home{
+    color: #499b87;
+    position: absolute;
+    top: 3rem;
+left: 82rem;
+}
+
+
+.card_container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 25px;
+    background: #f7f7f7;;
+    margin: 3rem;
+}
+
+.text_container{
+    padding: 1.9rem;
+}
