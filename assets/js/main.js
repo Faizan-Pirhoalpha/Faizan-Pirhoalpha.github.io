@@ -37,6 +37,24 @@
     return false;
   });
 
+  // Contact float
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $(".contact-float").fadeIn("slow");
+    } else {
+      $(".contact-float").fadeOut("slow");
+    }
+  });
+  $(".contact-float").click(function() {
+    $("html, body").animate(
+      {
+        
+      },
+      
+      "easeInOutExpo"
+    );
+    return true;
+  });
   // Initiate the wowjs animation library
   new WOW().init();
 
